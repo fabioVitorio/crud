@@ -25,29 +25,33 @@
       </div>
         
       <div style="padding: 20px 0 20px 0;">
-        <form class="row g-3 bg-dark m-auto text-light needs-validation" style="border-radius: 3px; padding: 30px; max-width: 70%;" novalidate>
+        <form class="row g-3 m-auto needs-validation" style="border-radius: 3px; padding: 30px; max-width: 70%;" novalidate>
           <div class="col-md-4">
             <label for="validationCustom01" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="nome" required>
+            <input type="text" class="form-control border border-secondary" id="nome" required>
           </div>
           <div class="col-md-4">
             <label for="validationCustom02" class="form-label">Sobrenome</label>
-            <input type="text" class="form-control" id="sobrenome" required>
+            <input type="text" class="form-control border border-secondary" id="sobrenome" required>
           </div>
           <div class="col-md-4">
             <label for="validationCustomUsername" class="form-label">E-mail</label>
             <div class="input-group has-validation">
               <span class="input-group-text" id="inputGroupPrepend">@</span>
-              <input type="email" class="form-control" id="mail" aria-describedby="inputGroupPrepend" required>
+              <input type="email" class="form-control border border-secondary" id="mail" aria-describedby="inputGroupPrepend" required>
             </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom03" class="form-label">Data de Nascimento</label>
+            <input type="date" class="form-control border border-secondary" id="endereco" required>
           </div>
           <div class="col-md-6">
             <label for="validationCustom03" class="form-label">Enedreço</label>
-            <input type="text" class="form-control" id="endereco" required>
+            <input type="text" class="form-control border border-secondary" id="endereco" required>
           </div>
           <div class="col-md-3">
             <label for="validationCustom04" class="form-label">Estado</label>
-            <select class="form-select" id="estado" required>
+            <select class="form-select border border-secondary" id="estado" required>
               <option selected disabled value="">Escolha...</option>
               <option value="AC">Acre</option>
               <option value="AL">Alagoas</option>
@@ -79,8 +83,8 @@
               <option value="EX">Estrangeiro</option>
             </select>
           </div>
-          
-          <div class="col-12">
+
+          <div class="mt-5 col-12">
             <button class="btn btn-primary" type="submit">Cadastrar</button>
           </div>
         </form>
