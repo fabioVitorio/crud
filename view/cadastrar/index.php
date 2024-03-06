@@ -10,13 +10,12 @@
 
       <!-- nav -->
       <nav class="navbar bg-dark border-bottom border-body">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="https://codebuilding.com/wp-content/uploads/2023/06/CODE-LOGO-HERO.png" alt="Logo" width="110" height="35" class="d-inline-block align-text-top">
-            </a>
-              <button class="btn btn-outline-success" type="submit" onclick="window.location='listar.html'">Listar</button>
-
-          </div>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://codebuilding.com/wp-content/uploads/2023/06/CODE-LOGO-HERO.png" alt="Logo" width="110" height="35" class="d-inline-block align-text-top">
+          </a>
+            <button class="btn btn-outline-success" type="submit" onclick="window.location='../listar/index.php'">Listar</button>
+        </div>
       </nav>
 
       <!-- main -->
