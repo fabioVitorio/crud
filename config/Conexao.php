@@ -1,5 +1,5 @@
 <?php
-
+    
     $driver = "mysql:host=localhost;dbname=db_crud";
     $user = 'root';
     $password = '';

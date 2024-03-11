@@ -4,11 +4,12 @@ class Cliente{
 
     private $id_cliente;
     private $nome;
-    private $sobrenome;
+    private $cpf;
     private $email;
+    private $git;
     private $data_nasc;
-    private $endereco;
-    private $estado;
+    private $funcao;
+    private $observacoes;
 
 
     function getId(){
@@ -27,12 +28,12 @@ class Cliente{
         return $this->nome = $nome;
     }
 
-    function getSobrenome(){
-        return $this->sobrenome;
+    function getCpf(){
+        return $this->cpf;
     }
 
-    function setSobrenome($sobrenome){
-        return $this->sobrenome = $sobrenome;
+    function setCpf($cpf){
+        return $this->cpf = $cpf;
     }
 
     function getEmail(){
@@ -43,6 +44,14 @@ class Cliente{
         return $this->email = $email;
     }
 
+    function getGit(){
+        return $this->git;
+    }
+
+    function setGit($git){
+        return $this->git = $git;
+    }
+
     function getNascimento(){
         return $this->data_nasc;
     }
@@ -51,26 +60,23 @@ class Cliente{
         return $this->data_nasc = $data_nasc;
     }
 
-    function getEndereco(){
-        return $this->endereco;
+    function getFuncao(){
+        return $this->funcao;
     }
 
-    function setEndereco($endereco){
-        return $this->endereco = $endereco;
+    function setFuncao($funcao){
+        return $this->funcao = $funcao;
     }
 
-    function getEstado(){
-        return $this->estado;
+    function getObservacoes(){
+        return $this->observacoes;
     }
 
-    function setEstado($estado){
-        return $this->estado = $estado;
+    function setObservacoes($observacoes){
+        return $this->observacoes = $observacoes;
     }
 
 }
-
-
-
 
 
 ?>

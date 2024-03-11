@@ -20,7 +20,7 @@
       </nav>
 
       <div class="mt-5 mb-5">
-        <h3 class="text-center">LISTA DE CLIENTES</h3>
+        <h3 class="text-center">LISTA DE DESENVOLVEDORES</h3>
       </div>
 
       <div style="overflow-y: scroll;">
