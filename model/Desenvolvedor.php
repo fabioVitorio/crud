@@ -1,6 +1,6 @@
 <?php 
 
-class Cliente{
+class Desenvolvedor{
 
     private $id_cliente;
     private $nome;

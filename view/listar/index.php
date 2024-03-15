@@ -15,70 +15,42 @@
           <a class="navbar-brand" href="#">
             <img src="https://codebuilding.com/wp-content/uploads/2023/06/CODE-LOGO-HERO.png" alt="Logo" width="110" height="35" class="d-inline-block align-text-top">
           </a>
-          <button class="btn btn-outline-success" type="submit" onclick="window.location='../cadastrar/index.php'">Cadastrar</button>
+          <h3 class="text-center text-light">LISTA DE DESENVOLVEDORES</h3>
+          <button class="btn btn-outline-secondary" type="submit" onclick="window.location='../cadastrar/index.php'">Cadastrar</button>
         </div>
       </nav>
 
-      <div class="mt-5 mb-5">
-        <h3 class="text-center">LISTA DE DESENVOLVEDORES</h3>
-      </div>
+      <table class="table table-striped mt-5 px-5">
+        <thead class="border-b border-secondary">
+          <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">CPF</th>
+            <th scope="col">E-mail</th>
+            <th scope="col">GitHub</th>
+            <th scope="col">Status</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
 
-      <div style="overflow-y: scroll;">
-        <table class="table table-striped">
-          <thead class="border-b border-secondary">
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">Nome</th>
-              <th scope="col">Sobrenome</th>
-              <th scope="col">E-mail</th>
-              <th scope="col">Data Nasc.</th>
-              <th scope="col">Endereço</th>
-              <th scope="col">Ação</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">1</th>
-              <td>João Lucas</td>
-              <td>Costa</td>
-              <td>joão@gmail.com.br</td>
-              <td>28/02/2003</td>
-              <td>Rua Serafim José da Costa - MG</td>
-              <td>  
-                <button type="button" class="btn btn-success btn-sm"><i class="bi bi-pencil-square"></i></button>
-                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
-              </td>
-            </tr>
-
-            <tr>
-              <th scope="row">2</th>
-              <td>João Lucas</td>
-              <td>Costa</td>
-              <td>joão@gmail.com.br</td>
-              <td>28/02/2003</td>
-              <td>Rua Serafim José da Costa - MG</td>
-              <td>  
-                <button type="button" class="btn btn-success btn-sm"><i class="bi bi-pencil-square"></i></button>
-                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
-              </td>
-            </tr>
-
-            <tr>
-              <th scope="row">3</th>
-              <td>João Lucas</td>
-              <td>Costa</td>
-              <td>joão@gmail.com.br</td>
-              <td>28/02/2003</td>
-              <td>Rua Serafim José da Costa - MG</td>
-              <td>  
-                <button type="button" class="btn btn-success btn-sm"><i class="bi bi-pencil-square"></i></button>
-                <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
-              </td>
-            </tr>
-            
-          </tbody>
-        </table>    
-      </div> 
+            <td>João Lucas</td>
+            <td>Costa</td>
+            <td>joão@gmail.com.br</td>
+            <td>joão@gmail.com.br</td>
+            <td>
+              <button type="button" class="btn btn-success" style="--bs-btn-padding-y: .15rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .75rem;">
+                Ativo
+              </button>
+            </td>
+            <td>  
+              <button type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil-square"></i></button>
+              <button type="button" class="btn btn-danger btn-sm"><i class="bi bi-trash"></i></button>
+            </td>
+          </tr>
+          
+        </tbody>
+      </table>     
         
       <script src="script.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
